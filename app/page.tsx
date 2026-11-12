@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,9 +5,7 @@ export default function Home() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <span className="badge">
-          ✦ Frontend Developer in Progress
-        </span>
+        <span className="badge">✦ Aspiring Front-End Developer</span>
 
         <p className="eyebrow">HELLO, I'M</p>
 
@@ -16,12 +13,11 @@ export default function Home() {
           Fatma Zahra
           <span> Dalhoumi.</span>
         </h1>
-
         <p className="hero-description">
-          Curious by nature, driven by purpose, and always
-          creating something meaningful.
-          I'm passionate about technology, design, and
-          turning ideas into digital experiences.
+          I'm a Software Development student passionate about building
+          user-friendly digital experiences. I enjoy combining creativity and
+          technology to turn ideas into functional web applications. I'm
+          constantly learning, experimenting, and improving my skills.
         </p>
 
         <div className="hero-buttons">
@@ -35,7 +31,7 @@ export default function Home() {
         </div>
 
         <p className="hero-note">
-          Always learning. Always creating. Always growing.
+          Learning with purpose. Building with creativity.
         </p>
       </div>
 

@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,18 +6,18 @@ export default function About() {
     <section className="page-container">
       <div className="section-heading">
         <span className="eyebrow">GET TO KNOW ME</span>
-        <h1>More than just <span>code.</span></h1>
-        <p>A little introduction to the person behind the screen.</p>
+        <h1>
+          More than just <span>code.</span>
+        </h1>
+        <p>
+          Get to know the person behind the projects, the ideas, and the
+          curiosity that drives my learning journey.
+        </p>
       </div>
 
       <div className="about-grid">
         <div className="about-photo">
-          <Image
-            src="/image1.jpg"
-            alt="Fatma Zahra"
-            width={400}
-            height={480}
-          />
+          <Image src="/image1.jpg" alt="Fatma Zahra" width={400} height={480} />
         </div>
 
         <div className="about-content">
@@ -27,21 +26,20 @@ export default function About() {
           <h2>Hi, I'm Fatma Zahra!</h2>
 
           <p>
-            I'm an aspiring frontend developer with a passion
-            for technology, creativity, and continuous learning.
+            I'm a Software Development student with a growing interest in
+            front-end development and modern web technologies.
           </p>
 
           <p>
-            My journey into web development has introduced me
-            to the exciting world of building websites and
-            interactive applications.
+            I enjoy understanding how websites work, exploring new technologies,
+            and creating interfaces that are both functional and visually
+            appealing.
           </p>
 
           <p>
-            I enjoy exploring new ideas, solving problems,
-            and improving my skills one project at a time.
-            I believe that every small step is part of
-            something bigger.
+            My journey is driven by curiosity, consistency, and the motivation
+            to keep improving. I'm always looking for opportunities to gain
+            practical experience and develop my skills.
           </p>
 
           <div className="about-details">

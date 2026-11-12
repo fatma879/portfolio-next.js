@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 export default function Resume() {
@@ -6,13 +5,20 @@ export default function Resume() {
     <section className="page-container">
       <div className="section-heading">
         <span className="eyebrow">MY BACKGROUND</span>
-        <h1>My <span>Resume.</span></h1>
+        <h1>
+          My <span>Resume.</span>
+        </h1>
         <p>A closer look at my education, skills, and strengths.</p>
       </div>
 
       <div className="resume-layout">
-
         <div className="resume-main">
+          <p>
+            Motivated Software Development student building a foundation in
+            front-end technologies. Interested in creating practical digital
+            solutions, learning new tools, and contributing to collaborative
+            projects.
+          </p>
           <div className="resume-section">
             <h2>01. Education</h2>
 
@@ -21,9 +27,8 @@ export default function Resume() {
               <h3>Software Development with AI Skills</h3>
               <p>GoMyCode · Tunisia</p>
               <p>
-                Currently developing technical skills in
-                frontend development, programming, and
-                modern web technologies.
+                Currently developing technical skills in frontend development,
+                programming, and modern web technologies.
               </p>
             </div>
           </div>
@@ -61,7 +66,7 @@ export default function Resume() {
                 ["French", "B2"],
                 ["Italian", "B1"],
                 ["German", "B1"],
-                ["Turkish","A2"],
+                ["Turkish", "A2"],
               ].map(([language, level]) => (
                 <div className="skill-item" key={language}>
                   <span>{language}</span>
@@ -93,7 +98,6 @@ export default function Resume() {
             Let's Connect ↗
           </Link>
         </aside>
-
       </div>
     </section>
   );

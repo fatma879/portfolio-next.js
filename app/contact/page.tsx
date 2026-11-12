@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 export default function Contact() {
@@ -7,26 +6,21 @@ export default function Contact() {
       <div className="contact-card">
         <span className="eyebrow">HAVE A PROJECT OR AN IDEA?</span>
 
-        <h1>Let's create something <span>meaningful.</span></h1>
+        <h1>
+          Let's create something <span>meaningful.</span>
+        </h1>
 
         <p>
-          Whether it's an opportunity, a collaboration,
-          or simply a conversation about technology,
-          I'd love to hear from you.
+          I'm always happy to connect with people, exchange ideas, and explore
+          opportunities to learn and grow. Whether you have a question or would
+          simply like to connect, feel free to reach out.
         </p>
-
-        <a
-          href="mailto:YOUR_EMAIL_ADDRESS"
-          className="primary-button"
-        >
+        <a href="mailto:YOUR_EMAIL_ADDRESS" className="primary-button">
           Send Me an Email ↗
         </a>
 
         <div className="contact-links">
-          <Link
-            href="https://github.com/fatma879"
-            target="_blank"
-          >
+          <Link href="https://github.com/fatma879" target="_blank">
             GitHub ↗
           </Link>
 
@@ -38,7 +32,6 @@ export default function Contact() {
           </Link>
         </div>
       </div>
-
       <div className="contact-bottom">
         <span>GOOD THINGS START WITH A HELLO.</span>
         <span>✿</span>
